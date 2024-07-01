@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  user-select: none;
+}
+body {
+  color: #eee;
+  background-color: #1f2937;
+
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+h1 {
+  font-weight: 300;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+.btn-grad {
+  cursor: pointer;
+  background-color: #111827;
+  margin: 1.25rem 0.75rem;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  opacity: .7;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -.75rem;
+}
+.btn {
+  cursor: pointer;
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 5px solid rgb(22, 22, 22);
+  border-radius: 1.5rem;
+  margin: 2rem 1rem;
+  box-shadow: 1px 1px 5px #eee,-1px -1px 5px #eee;
+}
+.red{
+  background-color: #ff005d;
+}
+.blue{
+  background-color: #005dff;
+}
+.green{
+  background-color: #00ff5d;
+}
+.yellow{
+  background-color: #ffd700;
+}
+
+.game-over{
+  background-color: #374151;
+  color: white;
+  border: 2px solid #eee;
+  width: 95%;
+  max-width: 600px;
+  height: 20rem;
+  position: fixed;
+  top: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.1rem;
+}
+
+.hide{
+  display: none;
+}
+
+.flash{
+  background-color: white;
+}
+.user-flash{
+  background-color: rgb(7, 7, 7);
+}
