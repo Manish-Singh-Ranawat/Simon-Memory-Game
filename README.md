@@ -2,6 +2,8 @@
 
 A web-based Simon Memory Game built using HTML, CSS, and JavaScript.
 
+ **[View Live](https://manish-singh-ranawat.github.io/Simon-Memory-Game/)**
+
 ## Features
 
 - **Levels**: The game progresses through increasing levels of difficulty.
